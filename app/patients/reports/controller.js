@@ -239,30 +239,15 @@ export default AbstractReportController.extend(PatientDiagnosis, PatientVisits, 
     }, {
       name: i18n.t('patients.titles.admissionsSummary'),
       value: 'admissions'
-    }, {
+    },  {
       name: i18n.t('patients.titles.dischargesDetail'),
       value: 'detailedDischarges'
     }, {
       name: i18n.t('patients.titles.dischargesSummary'),
       value: 'discharges'
-    }, {
-      name: i18n.t('patients.titles.proceduresDetail'),
-      value: 'detailedProcedures'
-    }, {
-      name: i18n.t('patients.titles.proceduresSummary'),
-      value: 'procedures'
-    }, {
-      name: i18n.t('patients.titles.patientStatus'),
-      value: 'status'
-    }, {
+    },  {
       name: i18n.t('patients.titles.totalPatientDays'),
       value: 'patientDays'
-    }, {
-      name: i18n.t('patients.titles.totalPatientDaysDetailed'),
-      value: 'detailedPatientDays'
-    }, {
-      name: i18n.t('patients.titles.visit'),
-      value: 'visit'
     }];
   }),
 
