@@ -171,33 +171,6 @@ export default Mixin.create({
       ]
     },
     {
-      title: 'Labs',
-      iconClass: 'octicon-microscope',
-      route: 'labs',
-      capability: 'labs',
-      subnav: [
-        {
-          title: 'Requests',
-          iconClass: 'octicon-chevron-right',
-          route: 'labs.index',
-          capability: 'labs'
-        },
-        {
-          title: 'Completed',
-          iconClass: 'octicon-chevron-right',
-          route: 'labs.completed',
-          capability: 'labs'
-        },
-        {
-          title: 'New Request',
-          iconClass: 'octicon-plus',
-          route: 'labs.edit',
-          subroute: 'new',
-          capability: 'add_lab'
-        }
-      ]
-    },
-    {
       title: 'Billing',
       iconClass: 'octicon-credit-card',
       route: 'invoices',
@@ -231,68 +204,11 @@ export default Mixin.create({
       ]
     },
     {
-      title: 'Incident',
-      iconClass: 'octicon-package',
-      route: 'incident',
-      capability: 'incident',
-      subnav: [
-        {
-          title: 'Current Incidents',
-          iconClass: 'octicon-chevron-right',
-          route: 'incident.index',
-          capability: 'add_incident'
-        },
-        {
-          title: 'New Incident',
-          iconClass: 'octicon-plus',
-          route: 'incident.edit',
-          subroute: 'new',
-          capability: 'add_incident'
-        },
-        {
-          title: 'History',
-          iconClass: 'octicon-chevron-right',
-          route: 'incident.completed',
-          capability: 'add_incident'
-        },
-        {
-          title: 'Reports',
-          iconClass: 'octicon-chevron-right',
-          route: 'incident.reports',
-          capability: 'generate_incident_report'
-        }
-      ]
-    },
-    {
       title: 'Administration',
       iconClass: 'octicon-person',
       route: 'admin',
       capability: 'admin',
       subnav: [
-        {
-          title: 'Address Fields',
-          iconClass: 'octicon-chevron-right',
-          route: 'admin.address',
-          capability: 'update_config'
-        },
-        {
-          title: 'Custom Forms',
-          iconClass: 'octicon-chevron-right',
-          route: 'admin.custom-forms',
-          capability: 'update_config'
-        },
-        {
-          title: 'Incident Categories',
-          iconClass: 'octicon-chevron-right',
-          route: 'inc-category',
-          capability: 'add_incident_category'
-        },
-        {
-          title: 'Load DB',
-          iconClass: 'octicon-plus',
-          route: 'admin.loaddb',
-          capability: 'load_db'
-        },
         {
           title: 'Lookup Lists',
           iconClass: 'octicon-chevron-right',

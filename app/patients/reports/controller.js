@@ -240,9 +240,6 @@ export default AbstractReportController.extend(PatientDiagnosis, PatientVisits, 
       name: i18n.t('patients.titles.admissionsSummary'),
       value: 'admissions'
     }, {
-      name: i18n.t('patients.titles.diagnosticTesting'),
-      value: 'diagnostic'
-    }, {
       name: i18n.t('patients.titles.dischargesDetail'),
       value: 'detailedDischarges'
     }, {
