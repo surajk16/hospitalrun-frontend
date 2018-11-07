@@ -435,7 +435,7 @@ export default {
   dashboard: {
     needs_user_setup: 'We recommend that you setup a User account.',
     standalone_welcome: "<h4>Thanks for downloading HospitalRun</h4><p>You are running HospitalRun in stand alone mode. This mode allows you to support multiple users on a single, desktop/laptop instance of HospitalRun. This is ideal for:</p><ul><li>Evaluating HospitalRun for an eventual server deployment.</li><li>Using the platform to support a clinic / facility where a single instance is sufficient.</li></ul><p>If you're considering a multi-device deployment of HospitalRun, we're <a href=\"https://github.com/HospitalRun/hospitalrun-frontend/issues/1048\" target=\"_blank\">working on features</a> that will allow you to \"graduate\" from this single instance into a traditional cloud / server-based deployment.</p>",
-    title: 'Welcome to HospitalRun!'
+    title: 'Welcome to ClinicManage!'
   },
   dates: {
     'long': '{{years}} year {{months}} months {{days}} days',

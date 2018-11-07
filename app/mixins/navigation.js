@@ -130,33 +130,6 @@ export default Mixin.create({
       ]
     },
     {
-      title: 'Imaging',
-      iconClass: 'octicon-device-camera',
-      route: 'imaging',
-      capability: 'imaging',
-      subnav: [
-        {
-          title: 'Requests',
-          iconClass: 'octicon-chevron-right',
-          route: 'imaging.index',
-          capability: 'imaging'
-        },
-        {
-          title: 'Completed',
-          iconClass: 'octicon-chevron-right',
-          route: 'imaging.completed',
-          capability: 'imaging'
-        },
-        {
-          title: 'New Request',
-          iconClass: 'octicon-plus',
-          route: 'imaging.edit',
-          subroute: 'new',
-          capability: 'add_imaging'
-        }
-      ]
-    },
-    {
       title: 'Medication',
       iconClass: 'octicon-file-text',
       route: 'medication',
