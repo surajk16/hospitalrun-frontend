@@ -18,7 +18,6 @@ export default AbstractEditController.extend(UserRoles, UserSession, {
     name: 'admin',
     capabilities: [
       'admin',
-      'loadDb',
       'updateConfig',
       'defineUserRoles'
     ]
@@ -32,7 +31,6 @@ export default AbstractEditController.extend(UserRoles, UserSession, {
     name: 'billing',
     capabilities: [
       'billing',
-      'addBillingDiagnosis',
       'addCharge',
       'addPricing',
       'addPricingProfile',
@@ -55,12 +53,9 @@ export default AbstractEditController.extend(UserRoles, UserSession, {
       'addAllergy',
       'addDiagnosis',
       'addNote',
-      'addOperativePlan',
       'addOperationReport',
       'addPhoto',
       'addPatient',
-      'addProcedure',
-      'addSocialwork',
       'addVisit',
       'addVitals',
       'admitPatient',
@@ -69,8 +64,6 @@ export default AbstractEditController.extend(UserRoles, UserSession, {
       'deletePatient',
       'deleteAppointment',
       'deleteDiagnosis',
-      'deleteProcedure',
-      'deleteSocialwork',
       'deleteVitals',
       'deleteVisit',
       'dischargePatient',
@@ -84,33 +77,6 @@ export default AbstractEditController.extend(UserRoles, UserSession, {
       'addMedication',
       'deleteMedication',
       'fulfillMedication'
-    ]
-  }, {
-    name: 'labs',
-    capabilities: [
-      'labs',
-      'addLab',
-      'completeLab',
-      'deleteLab'
-    ]
-  }, {
-    name: 'imaging',
-    capabilities: [
-      'imaging',
-      'addImaging',
-      'completeImaging',
-      'deleteImaging'
-    ]
-  }, {
-    name: 'incident',
-    capabilities: [
-      'incident',
-      'addIncident',
-      'addIncidentCategory',
-      'deleteIncident',
-      'deleteIncidentCategory',
-      'manageIncidents',
-      'generateIncidentReport'
     ]
   }, {
     name: 'inventory',
